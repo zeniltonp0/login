@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'PoetsenOne';
+    src: url('PoetsenOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-height: normal;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('PublicSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-height: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #004080;
+}
+
+.login{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 610px;
+    height: 518px;
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.login h2{
+    color: rgba(0, 0, 0, 0.65);
+    font-family: 'PoetsenOne';
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.login p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Public Sans';
+}
+
+.login .box-user input{
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.login #loginname{
+    color: #004080;
+}
+
+.login .box-user label{
+    color: var(--preto-preto, #333);
+    font-family: 'Public Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login .box-user input{
+    width: 289px;
+    height: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
