@@ -1,16 +1,6 @@
-@font-face {
-    font-family: 'PoetsenOne';
-    src: url('PoetsenOne-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-height: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-height: normal;
-}
 
 *{
     margin: 0;
@@ -23,7 +13,8 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #004080;
+    background-image: url("assets/Poly.png");
+    background-color: #FFFFFF;
 }
 
 .login{
@@ -37,7 +28,7 @@ body{
 
 .login h2{
     color: rgba(0, 0, 0, 0.65);
-    font-family: 'PoetsenOne';
+    font-family: 'Montserrat', sans-serif;
     padding-bottom: 10px;
     text-align: center;
     font-weight: 400;
@@ -50,7 +41,7 @@ body{
     font-size: 14px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.50);
-    font-family: 'Public Sans';
+    font-family: 'Public Sans', sans-serif;
 }
 
 .login .box-user input{
