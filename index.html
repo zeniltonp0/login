@@ -8,21 +8,29 @@
 </head>
 <body>
     <form class="login">
-        <h2>Bem-vindo ao <span id="loginname">LOGIN</span></h2>
-        <p class="subtext">Preencha os dados de login para acessar</p>
+        <div class="description">
+            <h2 class="textlogin">Bem-vindo ao <span id="loginname">LOGIN</span></h2>
+            <p class="subtext">Preencha os dados de login para acessar</p>
+        </div>
+        
         <div class = "box-user">
-        <label>Usuário</label>
-        <input type="text" name = "" required>
-        <label>Senha</label>
-        <input type="password" name = "" required>
+            <label class="textuser">Usuário</label>
+            <input class = "user" type="text" name = "" required>
+            <label class="textsenha">Senha</label>
+            <input class = "senha" type="password" name = "" required>
+        </div>
 
-    <div>
-        <a href="#">Esqueceu a senha?</a>
-    </div>
-
-    <a href="#">Entrar</a>
-    </form>
+        <div class="btns">
+        <div>
+            <label class="remenber"> <input type="checkbox"></input> Lembre minha senha</label>
+            </div>
+            <div>
+                <button type="submit" class="btn">Entrar</button>
+            </div>
+        </div>
     
+    
+    </form>
     
 </body>
 </html>
