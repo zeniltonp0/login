@@ -22,8 +22,9 @@ body{
     padding: 10px;
     border-radius: 10px;
     width: 610px;
-    height: 518px;
+    height: 610px;
     box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.25);
+
 }
 
 .login h2{
@@ -33,15 +34,19 @@ body{
     text-align: center;
     font-weight: 400;
     font-size: 24px;
+    margin-top: 30px;
 }
 
-.login p{
+.login .subtext{
     text-align: center;
     padding-bottom: 20px;
     font-size: 14px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.50);
     font-family: 'Public Sans', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: normal;
 }
 
 .login .box-user input{
@@ -70,4 +75,23 @@ body{
     padding-bottom: 10px;
     padding-right: 5px;
     padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.box-user{
+    margin-left: 63px;
+}
+.box-user .user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-user input{
+    margin-left: 100px;
+    margin-top: 2px;
+}
+
+.box-user label{
+    margin-left: 100px;
 }
