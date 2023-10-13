@@ -1,6 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
+@font-face {
+    font-family: 'PoetsenOne';
+    src: url('../assets/fonts/PoetsenOne/PoetsenOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-height: normal;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('../assets/fonts/PublicSans/PublicSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-height: normal;
+}
 
 *{
     margin: 0;
@@ -29,7 +40,7 @@ body{
 
 .login h2{
     color: rgba(0, 0, 0, 0.65);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'PoetsenOne';
     padding-bottom: 10px;
     text-align: center;
     font-weight: 400;
