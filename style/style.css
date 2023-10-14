@@ -67,7 +67,7 @@ body{
 }
 
 .login #loginname{
-    color: #004080;
+    color: #0078F0;
 }
 
 .login .box-user label{
@@ -91,6 +91,8 @@ body{
 
 .box-user{
     margin-left: 63px;
+    position: relative;
+    margin-bottom: 20px;
 }
 .box-user .user{
     display: flex;
@@ -100,9 +102,40 @@ body{
 
 .box-user input{
     margin-left: 100px;
-    margin-top: 2px;
+    margin-top: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+    color: #333;
 }
 
 .box-user label{
     margin-left: 100px;
 }
+
+.btns .remenber{
+    font-family: 'Public Sans';
+    font-size: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.btns .btn{
+    padding: 10px 50px;
+    margin: 50px 100px;
+    background-color: #0078F0;
+    color: #FFFFFF;
+    width: 400px;
+    padding: 15px;
+    border-radius: 20px;
+    font-family:'Public Sans';
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right, #0078F0, #0164c7);
+}
+
